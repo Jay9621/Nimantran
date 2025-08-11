@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIMANTRAN - Premium Indian Wedding Cards</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Promotional Banner -->
+    <div class="promo-banner">
+        Use code "NIMANTRAN" for a 10% off on first purchase
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Left: Logo -->
+                <div class="logo-section">
+                    <div class="logo-container">
+                        <div class="logo-outer">
+                            <div class="logo-inner">
+                                <span class="logo-text">N</span>
+                                <div class="logo-dot top-right"></div>
+                                <div class="logo-dot bottom-left"></div>
+                            </div>
+                            <div class="logo-decoration top"></div>
+                            <div class="logo-decoration bottom"></div>
+                            <div class="logo-decoration left"></div>
+                            <div class="logo-decoration right"></div>
+                        </div>
+                    </div>
+                    <div class="brand-text">
+                        <h1 class="brand-name">NIMANTRAN</h1>
+                        <p class="brand-subtitle">PREMIUM CARDS</p>
+                    </div>
+                </div>
+
+                <!-- Center: Navigation -->
+                <nav class="nav-links">
+                    <a href="#" class="nav-link" id="homeNavBtn">HOME</a>
+                    <a href="#" class="nav-link" id="contactNavBtn">CONTACT</a>
+                </nav>
+
+                <!-- Right: Icons -->
+                <div class="header-icons">
+                    <button class="icon-btn" id="searchBtn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button class="icon-btn" id="userBtn">
+                        <i class="fas fa-user"></i>
+                    </button>
+                    <button class="icon-btn cart-btn" id="cartBtn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-badge" id="cartBadge">0</span>
+                    </button>
+                    <button class="icon-btn mobile-menu" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h2 class="hero-title">WEDDING CARDS</h2>
+            <p class="hero-subtitle">Exquisite Indian wedding invitations crafted with tradition and elegance</p>
+            <button class="hero-btn">SHOP NOW</button>
+        </div>
+        <div class="hero-decoration decoration-1"></div>
+        <div class="hero-decoration decoration-2"></div>
+    </section>
+
+    <!-- Shop by Occasion -->
+    <section class="shop-by-occasion">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-title">SHOP BY OCCASION</h3>
+                <div class="section-divider"></div>
+            </div>
+
+            <!-- Category Grid -->
+            <div class="category-grid" id="categoryGrid">
+                <div class="category-card" data-category="wedding">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?w=400&h=300&fit=crop" alt="Wedding Invitations">
+                        <div class="category-overlay">
+                            <h4 class="category-name">Wedding Invitations</h4>
+                            <p class="category-count">200+ Designs</p>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h4 class="category-title">Wedding Invitations</h4>
+                        <p class="category-subtitle">200+ Designs</p>
+                        <button class="category-btn" data-category="wedding">View Cards</button>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="engagement">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop" alt="Engagement Cards">
+                        <div class="category-overlay">
+                            <h4 class="category-name">Engagement Cards</h4>
+                            <p class="category-count">120+ Designs</p>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h4 class="category-title">Engagement Cards</h4>
+                        <p class="category-subtitle">120+ Designs</p>
+                        <button class="category-btn" data-category="engagement">View Cards</button>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="baby-shower">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=300&fit=crop" alt="Baby Shower">
+                        <div class="category-overlay">
+                            <h4 class="category-name">Baby Shower</h4>
+                            <p class="category-count">80+ Designs</p>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h4 class="category-title">Baby Shower</h4>
+                        <p class="category-subtitle">80+ Designs</p>
+                        <button class="category-btn" data-category="baby-shower">View Cards</button>
+                    </div>
+                </div>
+
+                <div class="category-card" data-category="festival">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?w=400&h=300&fit=crop" alt="Festival Cards">
+                        <div class="category-overlay">
+                            <h4 class="category-name">Festival Cards</h4>
+                            <p class="category-count">150+ Designs</p>
+                        </div>
+                    </div>
+                    <div class="category-info">
+                        <h4 class="category-title">Festival Cards</h4>
+                        <p class="category-subtitle">150+ Designs</p>
+                        <button class="category-btn" data-category="festival">View Cards</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Expanded Category Cards -->
+            <div class="expanded-category" id="expandedCategory" style="display: none;">
+                <div class="expanded-header">
+                    <h4 class="expanded-title" id="expandedTitle"></h4>
+                    <button class="close-btn" id="closeExpanded">✕ Close</button>
+                </div>
+                <div class="expanded-grid" id="expandedGrid"></div>
+                <div class="expanded-footer">
+                    <button class="view-all-btn" id="viewAllBtn">View All</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Sellers -->
+    <section class="best-sellers">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-title">BEST SELLERS</h3>
+                <div class="section-divider"></div>
+                <p class="section-description">Discover our most loved designs, chosen by thousands of happy customers</p>
+            </div>
+
+            <div class="products-grid" id="bestSellersGrid">
+                <!-- Products will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-title">WHY CHOOSE NIMANTRAN</h3>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h4 class="feature-title">Premium Quality</h4>
+                    <p class="feature-description">Finest materials and printing techniques for lasting memories</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h4 class="feature-title">Fast Delivery</h4>
+                    <p class="feature-description">Quick turnaround time without compromising on quality</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h4 class="feature-title">Custom Designs</h4>
+                    <p class="feature-description">Personalized invitations tailored to your unique style</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h3 class="newsletter-title">STAY CONNECTED</h3>
+                <p class="newsletter-subtitle">Get exclusive designs, special offers, and wedding inspiration delivered to your inbox</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" class="newsletter-input">
+                    <button class="newsletter-btn">SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <span class="footer-logo-text">N</span>
+                        </div>
+                        <div class="footer-brand-text">
+                            <h4 class="footer-brand-name">NIMANTRAN</h4>
+                            <p class="footer-brand-subtitle">PREMIUM CARDS</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">Creating beautiful memories with our premium Indian greeting cards and wedding invitations since 2020.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h5 class="footer-title">QUICK LINKS</h5>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">About Us</a>
+                        <a href="#" class="footer-link">Wedding Cards</a>
+                        <a href="#" class="footer-link">Custom Designs</a>
+                        <a href="#" class="footer-link">Bulk Orders</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h5 class="footer-title">CUSTOMER SERVICE</h5>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Contact Us</a>
+                        <a href="#" class="footer-link">Shipping Info</a>
+                        <a href="#" class="footer-link">Returns & Exchanges</a>
+                        <a href="#" class="footer-link">FAQ</a>
+                    </div>
+                </div>
+
+                <div class="footer-section" id="contactSection">
+                  <h5 class="footer-title">CONTACT INFO</h5>
+                  <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <span>+91 98765 43210</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <span>hello@nimantran.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <span>Mumbai, Maharashtra, India</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">© 2024 NIMANTRAN. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#" class="footer-bottom-link">Privacy Policy</a>
+                    <a href="#" class="footer-bottom-link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3 class="cart-title">Shopping Cart</h3>
+            <button class="cart-close" id="cartClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="cart-content" id="cartContent">
+            <div class="cart-empty" id="cartEmpty">
+                <i class="fas fa-shopping-cart cart-empty-icon"></i>
+                <p>Your cart is empty</p>
+            </div>
+            
+            <div class="cart-items" id="cartItems" style="display: none;">
+                <!-- Cart items will be populated by JavaScript -->
+            </div>
+        </div>
+        
+        <div class="cart-footer" id="cartFooter" style="display: none;">
+            <div class="cart-total">
+                <div class="total-row">
+                    <span>Subtotal</span>
+                    <span id="cartSubtotal">₹0.00</span>
+                </div>
+                <p class="tax-notice">Tax included and shipping calculated at checkout</p>
+                <div class="minimum-warning" id="minimumWarning" style="display: none;">
+                    ⚠️ Minimum order quantity is 50 pieces per design. Please adjust quantities before checkout.
+                </div>
+            </div>
+            <div class="cart-actions">
+                <button class="clear-cart-btn" id="clearCartBtn">
+                    <i class="fas fa-trash"></i>
+                    CLEAR CART
+                </button>
+                <button class="checkout-btn" id="checkoutBtn">CHECK OUT</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Overlay -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <!-- Product Preview Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="productModal" role="dialog" aria-labelledby="productModalTitle" aria-describedby="productModalDescription">
+            <div class="modal-header">
+                <h3 class="modal-title" id="productModalTitle">Product Preview</h3>
+                <button class="modal-close" id="modalClose" aria-label="Close product preview">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-content" id="modalContent">
+                <p id="productModalDescription" class="sr-only">Preview of the selected product with details and purchase options.</p>
+                <!-- Modal content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Customer Details Modal -->
+    <div class="modal-overlay" id="customerModalOverlay">
+      <div class="modal" id="customerModal" role="dialog" aria-labelledby="customerModalTitle">
+        <div class="modal-header">
+          <h3 class="modal-title" id="customerModalTitle">Enter Your Details</h3>
+          <button class="modal-close" id="customerModalClose" aria-label="Close">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="modal-content">
+          <form id="customerForm">
+            <div class="form-group">
+              <label for="customerName">Full Name</label>
+              <input type="text" id="customerName" name="customerName" required>
+            </div>
+            <div class="form-group">
+              <label for="customerPhone">Contact Number</label>
+              <input type="tel" id="customerPhone" name="customerPhone" required>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="submit-btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Add the latest EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+      (function(){
+        emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS user ID
+      })();
+    </script>
+</body>
+</html>
