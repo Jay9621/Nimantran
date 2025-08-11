@@ -366,7 +366,7 @@ const productData = {
       originalPrice: 449,
       rating: 4.9,
       reviews: 156,
-      image: "Sample/Pooja Printready File_Maroon_OL.jpg",
+      image: "Sample/pooja_printready_file_maroon_ol.jpg",
       badge: "POPULAR",
     },
     {
