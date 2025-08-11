@@ -346,8 +346,7 @@ const productData = {
       originalPrice: 499,
       rating: 4.9,
       reviews: 234,
-      image: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=400&h=500&fit=crop",
-      badge: "BESTSELLER",
+      image: "Sample/Aadhya.jpg"
     },
     {
       id: "2",
@@ -356,7 +355,7 @@ const productData = {
       originalPrice: 399,
       rating: 4.8,
       reviews: 189,
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=500&fit=crop",
+      image: "Sample/gruhpravesh_tejas.jpg",
       badge: "NEW",
     },
     {
@@ -376,7 +375,7 @@ const productData = {
       originalPrice: 359,
       rating: 4.7,
       reviews: 98,
-      image: "https://images.unsplash.com/photo-1606800052052-a08af7148866?w=400&h=500&fit=crop",
+      image: "Sample/mehandi.jpg",
       badge: "SALE",
     },
   ],
