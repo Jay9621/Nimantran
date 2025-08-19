@@ -53,7 +53,8 @@ body {
 
 /* Header */
 .header {
-  background: white;
+  /* background: #F0EDE4; */
+    background: white;
   border-bottom: 1px solid var(--gray-200);
   position: sticky;
   top: 0;
@@ -64,7 +65,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 3px 0;
+}
+
+.header-logo-img {
+  max-width: 120px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  display: block;
 }
 
 .nav-left {
@@ -248,10 +257,11 @@ body {
   border: none;
   color: var(--gray-600);
   cursor: pointer;
-  padding: 0.5rem;
+  padding: 1rem;         /* Increased from 0.5rem */
   border-radius: 0.375rem;
   transition: color 0.3s ease;
   position: relative;
+  font-size: 1.5rem;     /* Increased from default */
 }
 
 .icon-btn:hover {
@@ -319,9 +329,10 @@ body {
 
 .hero-title {
   font-size: 3rem;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.1em;
   margin-bottom: 1.5rem;
+  color: #F0EDE4
 }
 
 @media (min-width: 1024px) {
