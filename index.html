@@ -9,9 +9,9 @@
 </head>
 <body>
     <!-- Top Promotional Banner -->
-    <div class="promo-banner">
+    <!-- <div class="promo-banner">
         Use code "NIMANTRAN" for a 10% off on first purchase
-    </div>
+    </div> -->
 
     <!-- Header -->
     <header class="header">
@@ -19,7 +19,7 @@
             <div class="header-content">
                 <!-- Left: Logo -->
                 <div class="logo-section">
-                    <div class="logo-container">
+                    <!-- <div class="logo-container">
                         <div class="logo-outer">
                             <div class="logo-inner">
                                 <span class="logo-text">N</span>
@@ -31,10 +31,9 @@
                             <div class="logo-decoration left"></div>
                             <div class="logo-decoration right"></div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="brand-text">
-                        <h1 class="brand-name">NIMANTRAN</h1>
-                        <p class="brand-subtitle">PREMIUM CARDS</p>
+                        <img src="Sample/logo.png" alt="Nimantran Logo" class="header-logo-img">
                     </div>
                 </div>
 
@@ -46,12 +45,12 @@
 
                 <!-- Right: Icons -->
                 <div class="header-icons">
-                    <button class="icon-btn" id="searchBtn">
+                    <!-- <button class="icon-btn" id="searchBtn">
                         <i class="fas fa-search"></i>
                     </button>
                     <button class="icon-btn" id="userBtn">
                         <i class="fas fa-user"></i>
-                    </button>
+                    </button> -->
                     <button class="icon-btn cart-btn" id="cartBtn">
                         <i class="fas fa-shopping-cart"></i>
                         <span class="cart-badge" id="cartBadge">0</span>
@@ -230,8 +229,7 @@
                             <span class="footer-logo-text">N</span>
                         </div>
                         <div class="footer-brand-text">
-                            <h4 class="footer-brand-name">NIMANTRAN</h4>
-                            <p class="footer-brand-subtitle">PREMIUM CARDS</p>
+                            <img src="Sample/logo.png" alt="Nimantran Logo" class="footer-logo-img">
                         </div>
                     </div>
                     <p class="footer-description">Creating beautiful memories with our premium Indian greeting cards and wedding invitations since 2020.</p>
@@ -242,7 +240,7 @@
                     </div>
                 </div>
 
-                <div class="footer-section">
+                <!-- <div class="footer-section">
                     <h5 class="footer-title">QUICK LINKS</h5>
                     <div class="footer-links">
                         <a href="#" class="footer-link">About Us</a>
@@ -250,9 +248,9 @@
                         <a href="#" class="footer-link">Custom Designs</a>
                         <a href="#" class="footer-link">Bulk Orders</a>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="footer-section">
+                <!-- <div class="footer-section">
                     <h5 class="footer-title">CUSTOMER SERVICE</h5>
                     <div class="footer-links">
                         <a href="#" class="footer-link">Contact Us</a>
@@ -260,7 +258,7 @@
                         <a href="#" class="footer-link">Returns & Exchanges</a>
                         <a href="#" class="footer-link">FAQ</a>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="footer-section" id="contactSection">
                   <h5 class="footer-title">CONTACT INFO</h5>
@@ -388,6 +386,11 @@
     </script>
 
     <!-- Correct usage in index.html or any HTML file in the root folder -->
-    <img src="Sample/Aadhya.jpg" alt="Aadhya Card">
+    <!-- <img src="Sample/Aadhya.jpg" alt="Aadhya Card"> -->
+    <script>
+  document.querySelector('.hero-btn').addEventListener('click', function() {
+    document.querySelector('.shop-by-occasion').scrollIntoView({ behavior: 'smooth' });
+  });
+</script>
 </body>
 </html>
