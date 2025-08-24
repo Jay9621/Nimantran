@@ -435,7 +435,8 @@ body {
 /* Shop by Occasion */
 .shop-by-occasion {
   padding: 5rem 0;
-  background: var(--gray-50);
+  /* background: var(--gray-50); */
+   background-color: #F4E7D3;
 }
 
 .category-grid {
@@ -803,13 +804,19 @@ body {
 }
 
 .features-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 3rem;
+    display: flex;                 /* arrange in row */
+    justify-content: center;       /* center them horizontally */
+    align-items: flex-start;       /* align to top */
+    gap: 40px;                     /* space between cards */
+    flex-wrap: wrap;               /* allow wrap on small screens */
+    margin: 40px auto;
+    max-width: 1200px;             /* keep them centered */
 }
 
 .feature-card {
-  text-align: center;
+    flex: 1 1 250px;    /* flexible width, min 250px */
+    max-width: 300px;   /* each card won't grow too big */
+    text-align: center; /* optional: center content */
 }
 
 .feature-icon {
